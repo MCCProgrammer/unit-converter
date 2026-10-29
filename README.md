@@ -1,21 +1,31 @@
-# unit-converter
-A simple unit conversion tool to convert between various units of measurement.
+# Unit Converter 📏
+
+Type one number and see it converted between metric and imperial units at once.
+
+**Live demo:** https://mccprogrammer.github.io/unit-converter/
+
+![Unit Converter screenshot](docs/screenshot.png)
 
 ## Features
-- Convert between metric and imperial units.
-- Supports length, volume and mass conversions.
-- Easy-to-use interface.
 
-## Installation
-1. Clone the repository:
-  ```bash
-  git clone 
-  ```
-2. Navigate to the project directory:
-  ```bash
-  cd unit-converter
-  ```
+- Length: meters ↔ feet
+- Volume: liters ↔ gallons
+- Mass: kilograms ↔ pounds
+- Both directions shown for every unit
 
-## Usage
-Open the `index.html` file in your web browser.
+## Run it locally
 
+No build step: clone the repo and open `index.html` in a browser.
+
+```bash
+git clone https://github.com/MCCProgrammer/unit-converter.git
+open unit-converter/index.html
+```
+
+## Built with
+
+HTML, CSS and plain JavaScript.
+
+---
+
+One of my first web projects. More of my work at [mccprogrammer.com/projects](https://mccprogrammer.com/projects).
